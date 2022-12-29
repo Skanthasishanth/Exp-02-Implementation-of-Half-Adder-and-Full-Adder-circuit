@@ -63,7 +63,8 @@ RTL realization
 ### RTL realization
 ![Half Adder](https://github.com/Skanthasishanth/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/blob/main/Half%20Adder.png)
 
-
+### TIMING DIAGRAM
+![Timing Diagram HA](https://github.com/Skanthasishanth/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/blob/main/Timing%20Diagram%20HA.png)
 ### TRUTH TABLE 
-
+![Truth Table HA](https://github.com/Skanthasishanth/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/blob/main/Truth%20Table%20HA.png)
 ### Result:
