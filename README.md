@@ -43,6 +43,7 @@ output sum,carry;
 xor(sum,a,b);
 and(carry,a,b);
 endmodule
+```
 ### Full Adder 
 module fulladder(a,b,c,sum,carry);
 input a,b,c;
