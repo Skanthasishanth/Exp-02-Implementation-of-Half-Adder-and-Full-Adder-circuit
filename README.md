@@ -1,13 +1,13 @@
 # Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit
 
 # Implementation-of-Half-Adder-and-Full-Adder-circuit
-### AIM:
+## AIM:
 To design a half adder and full adder circuit and verify its truth table in Quartus using Verilog programming.
 
-### Equipments Required:
+## Equipments Required:
 Hardware – PCs, Cyclone II , USB flasher
 Software – Quartus prime
-Theory
+## Theory:
 Adders are digital circuits that carry out addition of numbers.
 
 ### Half Adder
@@ -29,14 +29,14 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = A
 
 #### Figure -02 FULL ADDER 
 
-### Procedure
+## Procedure:
 
 Connect the supply (+5V) to the circuit
 Switch ON the main switch
 If the output is 1, then the led glows.
-### 
-Program:
+## Program:
 ### Half Adder 
+```
 module halfadder(a,b,sum,carry);
 input a,b;
 output sum,carry;
@@ -50,14 +50,12 @@ output sum,carry;
 assign sum=((a^b)^c);
 assign carry=((a&b)|(b&c)|(c&a));
 endmodule
-
+```
+```
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 Developed by: S Kantha Sishanth
 RegisterNumber: 22007660 
-*/
-Logic symbol & Truthtable
-RTL realization
-
+```
 ### Output:
 ### Half Adder
 ### RTL realization
